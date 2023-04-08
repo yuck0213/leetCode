@@ -17,8 +17,5 @@ public class IntegerBreak {
         return dp[len+1];
     }
 
-    public static void main(String[] args) {
-        int res = IntegerBreak.intBreak(8);
-        System.out.println(res);
-    }
+
 }
